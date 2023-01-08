@@ -1,0 +1,50 @@
+:root {
+  --mainBg: #18191a;
+  --mainTxt: #e4e6eb;
+  --mainCode: #212426;
+  --mainAnchor: #39b5e0;
+}
+
+[data-read-y-theme="dark"] *:not(code span):not(input):not(textarea) {
+  color: var(--mainTxt) !important;
+}
+
+[data-read-y-theme="dark"] body,
+[data-read-y-theme="dark"] button,
+[data-read-y-theme="dark"] section,
+[data-read-y-theme="dark"] article,
+[data-read-y-theme="dark"] main,
+[data-read-y-theme="dark"] div,
+[data-read-y-theme="dark"] nav,
+[data-read-y-theme="dark"] ul,
+[data-read-y-theme="dark"] ol,
+[data-read-y-theme="dark"] li,
+[data-read-y-theme="dark"] header,
+[data-read-y-theme="dark"] footer {
+  background: var(--mainBg) !important;
+  border-color: var(--mainTxt) !important;
+}
+
+[data-read-y-theme="dark"] a {
+  color: var(--mainAnchor) !important;
+}
+
+[data-read-y-theme="dark"] pre,
+[data-read-y-theme="dark"] pre > code,
+[data-read-y-theme="dark"] pre span {
+  background: var(--mainCode) !important;
+}
+
+[data-read-y-theme="dark"] pre {
+  padding: 12px;
+  margin-left: -12px;
+  margin-right: -12px;
+  border-radius: 12px;
+}
+
+[data-read-y-theme="dark"] p code,
+[data-read-y-theme="dark"] li code,
+[data-read-y-theme="dark"] mark {
+  color: var(--mainTxt) !important;
+  background-color: var(--mainCode) !important;
+}
