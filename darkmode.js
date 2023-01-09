@@ -8,7 +8,6 @@ async function getCurrentTab() {
 
 function darkMode(params) {
   const attr = document.documentElement.getAttribute("data-read-y-theme");
-  console.log(document.getElementById("dark-mode-button"));
   if (attr === "dark") {
     document.documentElement.setAttribute("data-read-y-theme", "light");
   } else {

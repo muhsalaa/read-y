@@ -8,7 +8,7 @@
     {
       "matches": ["<all_urls>"],
       "css": ["dark-theme.css"],
-      "js": ["dark-mode.js"]
+      "js": ["darkmode.js"]
     }
   ],
   "action": {
