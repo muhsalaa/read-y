@@ -12,7 +12,7 @@
         <p class="text-lg">Enhance your reading experience</p>
       </div>
       <div class="p-3">
-        <div>
+        <div class="mb-2">
           <button
             id="dark-mode-button"
             class="p-3 rounded bg-neutral-300 text-neutral-800 font-bold mb-2"
@@ -21,16 +21,20 @@
           </button>
         </div>
         <div>
-          Set page zoom
-          <input
-            id="slider"
-            type="range"
-            min="1"
-            max="2"
-            value="0.1"
-            class="slider"
-            id="myRange"
-          />
+          <p class="mb-2 font-bold">Set page zoom</p>
+          <div class="flex items-center">
+            <span class="inline-block mr-2 text-lg">1</span>
+            <input
+              type="range"
+              min="1"
+              max="2"
+              step="0.02"
+              value="1"
+              class="w-full bg-red-200 cursor-pointer"
+              id="slider-input"
+            />
+            <span class="inline-block ml-2 text-lg">2</span>
+          </div>
         </div>
       </div>
       <hr />

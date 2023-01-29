@@ -8,12 +8,21 @@
     {
       "matches": ["<all_urls>"],
       "css": ["dark-theme.css"],
-      "js": ["darkmode.js"]
+      "js": ["index.js"]
     }
   ],
   "action": {
     "default_popup": "index.html"
   },
   "permissions": ["scripting", "activeTab"],
-  "host_permissions": ["<all_urls>"]
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "assets/icon16.png",
+    "32": "assets/icon32.png",
+    "48": "assets/icon48.png",
+    "128": "assets/icon128.png"
+  }
 }
